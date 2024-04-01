@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c2a0e2;
+}
+.cabecalho{
+    background-color: rgb(179, 114, 209);
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+.cabecalho h1{
+    margin: 0;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left; 
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+.conteudo-centralizado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+    border: 1px solid #6c6ec5; /* Adiciona uma borda sólida */
+    max-width: 1000px; /* Define a largura máxima da caixa */
+    width: 100%; /* Garante que a caixa ocupe toda a largura disponível */
+    
+}
+h1#h1{
+    color: #c2a0e2;
+}
+
+#imagem {
+    text-align: center; /* Centraliza horizontalmente o conteúdo do contêiner */
+}
+
+#video{
+    text-align: center;
+}
+#imagem2{
+    text-align: center;
+}
+.lista-dupla {
+    column-count: 2; /* Divide a lista em duas colunas */
+    column-gap: 40px; /* Define o espaço entre as colunas */
+}
+
+#quadrado {
+    background-color: #c2a0e2;
+    width: 1000px; /* Ajusta a largura do retângulo */
+    height: 400px; /* Ajusta a altura do retângulo */
+    margin: 20px auto; /* Centraliza o retângulo horizontalmente e adiciona margem superior */
+    border: 2px solid #6c6ec5; /* Adiciona uma borda sólida */
+    border-radius: 8px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra */
+    display: flex; /* Torna o contêiner flexível */
+    justify-content: center; /* Centraliza horizontalmente os itens dentro do contêiner */
+    align-items: center; /* Centraliza verticalmente os itens dentro do contêiner */
+    flex-direction: column; /* Organiza os itens em coluna */
+    overflow: hidden; /* Esconde o conteúdo que ultrapassar os limites do retângulo */
+    padding-top: 0px;
+}
+#mais{
+    background-color: #adafe9;
+    width: 1000px;
+    height: 1100px;
+}
+
+.barra-final {
+    background-color: rgb(179, 114, 209); /* Cor da barra */
+    height: 20px; /* Altura da barra */
+    width: 100%; /* Largura da barra */
+    position: fixed; /* Mantém a barra fixa no final da janela de visualização */
+    bottom: 0; /* Alinha a barra no final da janela de visualização */
+    left: 0; /* Alinha a barra no lado esquerdo da janela de visualização */
+    z-index: 9999; /* Garante que a barra esteja acima de outros elementos */
+}
